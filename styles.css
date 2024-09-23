@@ -9,3 +9,8 @@ p {
     font-size: 18px;
     color: darkred;
 }
+
+/* Adding hover transition to forecast items */
+.day {
+    transition: background-color 1s ease;
+}
