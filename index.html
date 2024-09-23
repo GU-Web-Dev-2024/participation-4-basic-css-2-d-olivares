@@ -3,23 +3,46 @@
 
 <head>
     <title>Fall Weather Forecast</title>
-    <!-- Link to external stylesheet -->
 
+    <!-- External stylesheet link -->
+    <link rel="stylesheet" href="styles.css">
 
-    <!-- Embedded styles will go here -->
+    <!-- Embedded styles -->
+    <style>
+        /* Embedded styles applied to body and forecast div */
+        body {
+            font-family: "Georgia", serif;
+            color: darkorange;
+        }
 
+        .forecast {
+            border: 2px solid brown;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            background-color: lightyellow;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 36px;
+        }
+    </style>
 </head>
 
 <body>
+
     <h1>Fall Weather Forecast</h1>
+
     <div class="forecast">
         <p class="day">Monday: Sunny, 60°F</p>
         <p class="day">Tuesday: Cloudy, 55°F</p>
         <p class="day">Wednesday: Rainy, 50°F</p>
     </div>
 
-    <!-- Example of where inline styles can be added -->
-    <footer style="text-align: center;">Last updated: September 22</footer>
+    <!-- Inline styles applied to the footer -->
+    <footer style="text-align: center; font-size: 14px;">Last updated: September 22</footer>
+
 </body>
 
 </html>
